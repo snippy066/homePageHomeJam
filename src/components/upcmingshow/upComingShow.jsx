@@ -1,28 +1,28 @@
 import React from 'react';
 import ShowCard from './cards';
-import img7 from '../../images/imag7.png';
-import img5 from '../../images/img5.png';
-import img4 from '../../images/img4.png';
-import img6 from '../../images/img6.png';
+import img1 from '../../images/img5.png';
+import img2 from '../../images/img4.png';
+import img3 from '../../images/img3.png';
+import img4 from '../../images/img.png';
 
 const userDetails = [
     {
-        img:img7,
+        img:img1,
         name:"Bennyl Dayal",
         genre:"Folk"
     },
     {
-        img:img5,
+        img:img2,
         name:"Vijay Yesudas",
         genre:"Bollywood"
     },
     {
-        img:img4,
+        img:img3,
         name:"Andrea Jeremiah",
         genre:"Folk"
     },
     {
-        img:img6,
+        img:img4,
         name:"Shilpa Rao",
         genre:"Folk"
     }

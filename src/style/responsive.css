@@ -1,0 +1,30 @@
+@media (max-width:1040px ){
+    .headerWrapper .mobileView{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 16px;
+        width: 28%;
+        color: #fff;
+    }
+    .headerWrapper .pcView{
+        display: none;
+    }
+}
+
+@media (max-width:520px) {
+    .userReviewHeading .navigator{
+        justify-content: space-around;
+    }
+    .homeWrapper .homeTagline{
+        width: 100%;
+
+    }
+    .homeWrapper .homeTitle{
+        font-size: 40px;
+    }
+    .homeWrapper .homeStats{
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+}

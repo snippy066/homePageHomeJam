@@ -1,0 +1,33 @@
+.headerWrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerWrapper .logo{
+    cursor: pointer;
+}
+.headerWrapper .pcView{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headerWrapper .pcView .navSearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+}
+.headerWrapper .pcView span{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.headerWrapper .mobileView{
+    display: none;
+}

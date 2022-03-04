@@ -1,5 +1,5 @@
 import React from 'react';
-import save from '../../images/icons/save.png'
+import save from '../../images/icons/postsave.png'
 
 const ShowCard = ({userDetails}) => {
   return <div className='showCardContainer'>

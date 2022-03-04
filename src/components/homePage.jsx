@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './header';
+import Header from './headerComponent';
 import Like from '../images/icons/Like.png';
-import Calendar from '../Assets/icons/date.png';
+import Calendar from '../images/icons/date.png';
 
 import HomeStats from './stats';
 

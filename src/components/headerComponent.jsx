@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "../images/logo.png";
-import basket from '../images/icons/Basket.png'
+import check from '../images/icons/check.png'
 
 const Header = () => {
   return (
@@ -16,12 +16,12 @@ const Header = () => {
         <span>Help</span>
         <span>Account</span>
         <span>
-          <img src={basket} alt="" />
+          <img src={check} alt="" />
         </span>
       </nav>
       <nav className='mobileView'>
           <i className="far fa-search"></i>
-          <img src={basket} alt="" />
+          <img src={check} alt="" />
           <i class="far fa-bars"></i>
       </nav>
     </div>)

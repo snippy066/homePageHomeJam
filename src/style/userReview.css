@@ -1,0 +1,90 @@
+.userReviewWrapper{
+    padding: 2rem 10%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+}
+.userReviewHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userReviewHeading h3{
+    font-size: 32px;
+    font-family: 'Libre Baskerville';
+}
+.userReviewHeading .navigator{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigator span{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.navigator span i{
+    cursor: pointer;
+}
+.navigator span i:hover{
+    color: darkblue;
+}
+.reviewCardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.reviewCardWrapper{
+    width: 360px;
+    height: 248px;
+    border-radius: 16px;
+    position: relative;
+    margin: 2rem 0;
+}
+.reviewCardWrapper .reviewCardShadow{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    background: linear-gradient(143.63deg, #276C73 5.43%, #5293E8 110.6%);
+    border-radius: 16px;
+}
+.reviewCardWrapper .reviewCardData{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0A0B1A;
+    border: 2px solid #E5AF56;
+    border-radius: 16px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.reviewCardData .cardUserName{
+    font-family: 'Quattrocento';
+}
+.reviewCardData .reviewCardUserDetails{
+    display: flex;
+    align-items: center;
+}
+.reviewCardUserDetails .cardUserData{
+    margin-left: 20px;
+}
+.cardUserData .cardUserCountry{
+    display: flex;
+    align-items: center;
+}
+.cardUserData .cardUserCountry span{
+    color: #E5C558;
+    font-size: 11px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+}
