@@ -1,13 +1,13 @@
-import Home from "./pages/home";
-import UpcomingShow from './components/up/upcomingShow';
-import UserReview from "./components/reviews/userReview";
+import Home from "./components/homePage";
+import UpComingShow from './components/upcmingshow/upComingShow';
+import UsrReview from "./components/review/usrReview";
 
 function App() {
   return (
     <div className="App">
       <Home/>
-      <UpcomingShow/>
-      <UserReview/>
+      <UpComingShow/>
+      <UsrReview/>
     </div>
   );
 }
