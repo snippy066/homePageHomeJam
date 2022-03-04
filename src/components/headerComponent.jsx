@@ -22,7 +22,7 @@ const Header = () => {
       <nav className='mobileView'>
           <i className="far fa-search"></i>
           <img src={check} alt="" />
-          <i class="far fa-bars"></i>
+          <i className="far fa-bars"></i>
       </nav>
     </div>)
 };
